@@ -14,7 +14,7 @@ class FileController extends Controller
         $file = new File();
         $file->type = $request->input('type');
         $file->path = "storage/" . $request->file('image')->store('uploads','public');           
-        $path = "storage/" . $request->file('image')->store('uploads','public');
+        //$path = "storage/" . $request->file('image')->store('uploads','public');
         $file->obj_id = $request->input('obj_id');
         $file->save();
 
