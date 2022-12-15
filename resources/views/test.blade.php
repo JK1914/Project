@@ -9,28 +9,18 @@
 </head>
 <body>
 <div class="container">
-        <h1>Загрузка файла</h1>
+        <h1>Проверка загрузки файлов из базы</h1>
 
-        <form action="http://localhost:8000/file/upload" method="post" enctype="multipart/form-data">
+        <form action="http://localhost:8000/file" method="get" enctype="multipart/form-data">
             
 
-            <div class="form-group">
-                <input type="file" name="image">
-                <input type="text" placeholder="type" name="type">
+            <div class="form-group">                
                 <input type="text" placeholder="obj_id" name="obj_id">  
+                <input type="text" placeholder="type" name="type">
                 
                 <button type="submit">Загрузить</button>
             </div>
         </form>   
-        
-        
-        @isset ($path)
-        
-            <img src={{asset($path)}} alt="Не загружено">
-
-
-
-        @endif
     
 </body>
 </html>

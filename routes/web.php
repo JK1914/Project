@@ -15,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('default');
+    return view('welcome');
 });
+
+// Route::get('/', function () {
+//     return view('test');
+// });
 
 Route::post('/file/upload', [FileController::class, 'upload']);
 Route::get('/files', [FileController::class, 'list']);
-Route::get('{id}', [FileController::class, 'item']);
+Route::get('/file', [FileController::class, 'item']);

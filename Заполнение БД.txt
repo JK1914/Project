@@ -1,0 +1,14 @@
+Запрос к Actors
+Запрос к Medias
+Получить массив id
+Заполнение БД laravel
+https://laravel.su/docs/5.2/seeding#:~:text=Laravel%20%D0%B8%D0%BC%D0%B5%D0%B5%D1%82%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B9%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%20%D0%B7%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F,%D0%B1%D1%83%D0%B4%D0%B5%D1%82%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%2C%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D0%BD%D1%8B%D0%B5%20UsersTableSeeder%20.
+Guzzle Laravel
+$response = Http::get('localhost/actors/all');
+Route::get('/actors/all', [ActorController::class, 'get_actors']); получить массив Actors
+Route::get('/medias/all', [MediasController::class, 'get_medias']); получить массив Medias
+ 
+
+https://kinogo.zone/cartoons/11032-pingviny-madagaskara-hdtvs-hdk6-v76.html
+https://ununbium.cloud.cdnland.in/be6278ca5f22ebfe6d14a82383f87815:2022121507/movies/6573e6fa71892374296205e89e2d6a8228e61141/240.mp4
+http://woocomp.ru/kak-uznat-ssylku-na-video-potok-v-google-chrome
